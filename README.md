@@ -66,21 +66,4 @@ Where:
 
 ### Exploration Strategy
 
-\[
-\pi_{\epsilon}(s) =
-\begin{cases}
-\text{random action}, & \text{with probability } \epsilon \\
-\arg\max_a Q(s, a), & \text{with probability } 1 - \epsilon
-\end{cases}
-\]
-
 The epsilon value decays after each episode to balance exploration and exploitation.
-
----
-
-## Run Instructions
-
-1. **Clone Repository**
-   ```bash
-   git clone https://github.com/<your-username>/escape-the-castle-rl-agent.git
-   cd escape-the-castle-rl-agent
