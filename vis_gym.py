@@ -274,4 +274,5 @@ def refresh(obs, reward, done, info, delay=0.1):
 
 if __name__ == "__main__":
     setup()
+
     main()
